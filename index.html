@@ -45,12 +45,11 @@
 
         section {
             max-width: 900px;
-            margin: auto;
+            margin: 40px auto;
             padding: 20px;
             background: rgba(0, 0, 0, 0.75);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
             border-radius: 10px;
-            margin-bottom: 20px;
         }
 
         h2 {
@@ -83,11 +82,12 @@
         }
 
         blockquote {
-            margin: 20px;
+            margin: 20px auto;
             padding: 20px;
             background: rgba(255, 255, 255, 0.1);
             border-left: 5px solid #00bfff;
             font-style: italic;
+            max-width: 800px;
         }
 
         .contact {
@@ -130,11 +130,14 @@
 
         .badges {
             text-align: center;
-            margin: 30px 0;
+            margin: 30px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
         }
 
         .badges img {
-            margin: 10px;
             transition: transform 0.3s;
         }
 
@@ -144,11 +147,11 @@
 
         .gif-container {
             text-align: center;
-            margin: 20px;
+            margin: 20px auto;
         }
 
         .gif-container img {
-            max-width: 100%;
+            max-width: 90%;
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -159,6 +162,7 @@
             text-align: center;
             color: #f4f4f9;
             background: rgba(0, 0, 0, 0.8);
+            margin-top: 40px;
         }
 
         .social-icons a {
@@ -227,7 +231,7 @@
 
     <section class="badges">
         <h2>Mis Redes y Badges 💻</h2>
-        <div class="badges">
+        <div>
             <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java Badge">
             <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML Badge">
             <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge">
